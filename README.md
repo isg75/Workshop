@@ -1,4 +1,4 @@
-# Tutorial introductorio de análisis de datos en Python
+# Tutorial introductorio al análisis de datos en Python
 
 ¡Bienvenid@s a este tutorial introductorio de análisis de datos en Python.
 
