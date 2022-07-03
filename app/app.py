@@ -71,13 +71,13 @@ if st.sidebar.checkbox('Información básica'):
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.title('Gráficos')
-st.markdown("Selecciona el gráfico deseado")
-st.sidebar.subheader('Create Own Visualization')
+st.markdown("Selecciona el tipo de gráfico deseado")
+st.sidebar.subheader('Selección de gráfico')
 if st.sidebar.checkbox('Gráfico'):
     if st.sidebar.checkbox('Gráfico de frecuencia'):
         st.subheader('Gráfico de frecuencia')
-        st.info("En caso de error, selecciona una columna adecuada en el panel lateral")
-        column_count_plot = st.sidebar.selectbox("Escoge la columna a usar. Prueba seleccionando 'age",df.columns)
+        st.info("En caso de error, por favor selecciona una columna adecuada en el panel lateral")
+        column_count_plot = st.sidebar.selectbox("Escoge la columna a explorar. Prueba seleccionando 'age",df.columns)
         hue_opt = st.sidebar.selectbox("Variable categórica opcional (hue). Prueba seleccionando 'primary_fur_color' ",df.columns.insert(0,None))
         
         fig = sns.countplot(x=column_count_plot,data=df,hue=hue_opt)
@@ -86,13 +86,12 @@ if st.sidebar.checkbox('Gráfico'):
             
     if st.sidebar.checkbox('Histograma | Distribución'):
         st.subheader('Histograma | Distribución')
-        st.info("En caso de error, selecciona una columna adecuada en el panel lateral")
+        st.info("En caso de error, por favor selecciona una columna adecuada en el panel lateral")
         # if st.checkbox('Dist plot'):
         column_dist_plot = st.sidebar.selectbox("Variable categórica opcional (hue). Prueba seleccionando 'tail_twitches'",df.columns)
         fig = sns.distplot(df[column_dist_plot])
         st.pyplot()
-            
-            
+                        
         
     if st.sidebar.checkbox('Boxplot'):
         st.subheader('Boxplot')
