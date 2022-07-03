@@ -6,8 +6,8 @@ El propósito de este tutorial es mostrar las posibilidades que permite el anál
 
 ## Diapositivas
 
-Si estás interesado en una visión muy breve de las posibilidades del análisis de datos, en el directorio *slides/* 
-encontrará una breve presentación sobre ello para poder hacerte una idea.
+Si estás interesado en una visión muy breve de las posibilidades que ofrece el análisis de datos, en el directorio *slides/* 
+encontrarás una breve presentación para poder hacerte una idea.
 
 ## Datos
 
@@ -22,7 +22,7 @@ preguntas que podemos hacernos sobre las ardillas de Central Park.
 ## Aplicación
 
 Finalmente, también veremos cómo podemos crear una simple aplicación en Python para explorar los datos haciendo uso de la librería [streamlit](https://docs.streamlit.io/). 
-Para poder ejecutar la aplicacióm, abre una `Terminal` en Linux/MacOS ó bien un `Anaconda prompt` en Windows dentro del directorio `app` y escribe:
+Para poder ejecutar la aplicación, abre una `Terminal` en Linux/MacOS ó bien un `Anaconda prompt` en Windows dentro del directorio `app` y escribe:
 
 ```shell
 streamlit run app.py
