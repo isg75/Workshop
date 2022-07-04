@@ -8,6 +8,9 @@ import seaborn as sns
 import pandas as pd 
 import numpy as np
 
+import folium
+from streamlit_folium import st_folium
+
 data = '../data/squirrelsNYC.csv'
 
 
@@ -74,6 +77,19 @@ st.title('Gráficos')
 st.markdown("Selecciona el tipo de gráfico deseado")
 st.sidebar.subheader('Selección de gráfico')
 if st.sidebar.checkbox('Gráfico'):
+
+    if st.sidebar.checkbox('Mapa de avistamientos'): 
+        st.subheader('Avistamientos')  
+        m = folium.Map(location=[40.781781, -73.966787], zoom_start=14)
+
+        for i in range(len(df)):
+            folium.CircleMarker(
+            location=[df.iloc[i,1],df.iloc[i,0]],
+            radius=2,
+            icon=folium.Icon(icon="cloud")).add_to(m)
+    
+        st_data = st_folium(m, width=725)
+
     if st.sidebar.checkbox('Gráfico de frecuencia'):
         st.subheader('Gráfico de frecuencia')
         st.info("En caso de error, por favor selecciona una columna adecuada en el panel lateral")
@@ -82,8 +98,7 @@ if st.sidebar.checkbox('Gráfico'):
         
         fig = sns.countplot(x=column_count_plot,data=df,hue=hue_opt)
         st.pyplot()
-            
-            
+
     if st.sidebar.checkbox('Histograma | Distribución'):
         st.subheader('Histograma | Distribución')
         st.info("En caso de error, por favor selecciona una columna adecuada en el panel lateral")
