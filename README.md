@@ -19,7 +19,7 @@ en el directorio *data/*.
 Para este tutorial, utilizaré un `jupyter notebook` que puedes encontrar en el directorio *notebooks/* en donde trataremos de responder a distintas
 preguntas que podemos hacernos sobre las ardillas de Central Park.
 
-Si no dispones de una instalación adecuada de `Python` y `jupyter`, puedes ejecutar el *notebook* haciendo *click* en el botón siguiente: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/isg75/Workshop/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fisg75%2FWorkshop%2Fblob%2Fmain%2Fnotebooks%2Fnotebook-ardillas.ipynb)
+Si no dispones de una instalación adecuada de `Python` y `jupyter`, puedes ejecutar el *notebook* haciendo *click* en el botón siguiente: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/isg75/Workshop/blob/main/notebooks/notebook-ardillas.ipynb)
 
 ## Aplicación
 
