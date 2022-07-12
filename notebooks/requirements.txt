@@ -1,0 +1,7 @@
+numpy==1.21.2
+pandas==1.4.1
+matplotlib==3.5.1
+seaborn==0.11.2
+folium==0.12.1.post1
+ee==0.1.316
+geemap==0.14.2

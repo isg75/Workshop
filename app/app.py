@@ -23,7 +23,7 @@ def main():
     st.markdown('### Ardillas en Central Park, NYC')
 
 
-    if st.button("Meet the Squirrels"):
+    if st.button("Conocer las ardillas"):
         img=Image.open('../images/ardilla_gris.jpeg')
         st.image(img,width=400, caption="Ardilla gris")
         img=Image.open('../images/ardilla_negra.jpeg')
