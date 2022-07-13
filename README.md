@@ -68,7 +68,7 @@ y espera a que termine el proceso (lleva tiempo).
 
 Si no dispones de una instalación adecuada de `Python` y `jupyter` y no te quieres complicar, puedes ejecutar el *notebook* haciendo *click* en el botón inferior: 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/isg75/Workshop/main?labpath=notebooks%2Fnotebook-ardillas.ipynb))
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/isg75/Workshop/main?labpath=notebooks%2Fnotebook-ardillas.ipynb)
 
 Si prefieres abrir el notebook en to ordenador,implemente en la `Terminal` de Linux/MacOS ó bien en el `Anaconda prompt` de Windows escribe:
 
