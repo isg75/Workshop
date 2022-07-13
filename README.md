@@ -66,7 +66,9 @@ pip install -r requirements.txt
 
 y espera a que termine el proceso (lleva tiempo).
 
-Si no dispones de una instalación adecuada de `Python` y `jupyter` y no te quieres complicar, puedes ejecutar el *notebook* haciendo *click* en el botón siguiente: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/isg75/Workshop/blob/main/notebooks/notebook-ardillas.ipynb).
+Si no dispones de una instalación adecuada de `Python` y `jupyter` y no te quieres complicar, puedes ejecutar el *notebook* haciendo *click* en el botón inferior: 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/isg75/Workshop/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fisg75%2FWorkshop%2Fblob%2Fmain%2Fnotebooks%2Fnotebook-ardillas.ipynb)
 
 Si prefieres abrir el notebook en to ordenador,implemente en la `Terminal` de Linux/MacOS ó bien en el `Anaconda prompt` de Windows escribe:
 
